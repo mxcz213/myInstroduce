@@ -48,16 +48,16 @@ html{
   /* flex:0 0 250px;
   width:250px;   兼容安卓浏览器 */
   flex:1;
-  /* height: 100%; */
   background: #ccc;
   padding:20px;
 }
-.base-info .name,.base-info .base-info-list{
+.base-info .base-info-list{
   margin:10px 0;
 }
 .base-info .name{
   font-weight: 100;
   font-size: 14px;
+  margin-bottom: 10px;
 }
 .base-info .base-info-list{
   font-size: 0;
@@ -73,19 +73,28 @@ html{
   border-radius: 50%;
 }
 .work-experience {
-  flex:2;
+  flex:1;
   background: #eee; 
   padding:20px;
-  /* height:100%; */
+}
+.project-experience{
+  flex:1;
+  background: #eee; 
+  padding:20px;
 }
 .latest-job{
   display: flex;
+  line-height: 30px;
+}
+.shadow-layout{
   padding:20px;
   background: #ECEEF0;
-  box-shadow: 0 1px 6px #B0B0B0;
+  box-shadow: 0 1px 6px #52A3B0; 
+  border-radius: 5px;
 }
 .latest-job .title,
-.service-company .title{
+.service-company .title,
+.mySkill .title{
   font-weight:bolder;
   font-size: 16px;
   color:#818ba3;
@@ -99,18 +108,28 @@ html{
 .service-company{
   padding:20px;
   box-shadow: 0 1px 6px #B0B0B0;
-  margin-top:20px;
 }
 .service-company .title{
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .service-company .company{
   font-size: 14px;
   padding:20px;
   border-bottom: 1px solid #ccc;
+  line-height: 25px;
 }
 .service-company .company:last-child{
   border-bottom: none;
+}
+.span-dw{
+  display: inline-block;
+  width: 50%;
+  font-size: 14px;
+}
+.mySkill-list p{
+  font-size: 14px;
+  padding-left: 20px;
+  line-height: 30px;
 }
 
 

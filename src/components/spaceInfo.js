@@ -1,6 +1,7 @@
 import React from 'react';
 import BaseInfo from './baseInfo';
 import WorkExprience from './workExperience';
+import ProjectExprience from './projectExperience';
 
 export default class SpaceInfo extends React.Component {
 	constructor(){
@@ -23,8 +24,9 @@ export default class SpaceInfo extends React.Component {
 
 		return (
 			<div className="base-wrapper">
-				<BaseInfo></BaseInfo>
 				<WorkExprience></WorkExprience>
+				<BaseInfo></BaseInfo>
+				<ProjectExprience></ProjectExprience>
 			</div>
 		)
 	}
