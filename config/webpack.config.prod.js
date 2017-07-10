@@ -24,7 +24,7 @@ const shouldUseRelativeAssetPaths = publicPath === './';
 // Omit trailing slash as %PUBLIC_URL%/xyz looks better than %PUBLIC_URL%xyz.
 const publicUrl = publicPath.slice(0, -1);
 // Get environment variables to inject into our app.
-const env = getClientEnvironment('/build/');
+const env = getClientEnvironment('/build');
 console.log(env);
 
 // Assert this just to be safe.
@@ -65,7 +65,7 @@ module.exports = {
     filename: 'static/js/[name].[chunkhash:8].js',
     chunkFilename: 'static/js/[name].[chunkhash:8].chunk.js',
     // We inferred the "public path" (such as / or /my-project) from homepage.
-    publicPath: publicPath,
+    publicPath: 'build/',
     // Point sourcemap entries to original disk location (format as URL on Windows)
     devtoolModuleFilenameTemplate: info =>
       path
