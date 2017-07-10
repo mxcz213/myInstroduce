@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+body,div,
+h1,h2,h3,h4,h5,h6,
+p{
+	padding:0;
+	margin:0;
+	font-weight: normal;
+}
+i{
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+}
+.mr20{
+	margin-right: 20px;
+}
+.mr50{
+	margin-right: 50px;
+}
+.mr10{
+	margin-right: 10px;
+}
+.mb10{
+	margin-bottom: 10px;
+}
