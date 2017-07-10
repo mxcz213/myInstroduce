@@ -4,22 +4,6 @@ import WorkExprience from './workExperience';
 import ProjectExprience from './projectExperience';
 
 export default class SpaceInfo extends React.Component {
-	constructor(){
-		super();
-		this.state = {
-			minHeight:''
-		}
-	}
-
-	componentDidMount(){
-		/*const header = this.refs.header;
-		const clientHeight = document.documentElement.clientHeight; 
-		const wraperHeight = clientHeight - header.offsetHeight + 'px';
-		this.setState({
-			minHeight:wraperHeight
-		});*/
-	}
-
 	render(){
 
 		return (

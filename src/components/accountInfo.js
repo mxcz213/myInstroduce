@@ -7,7 +7,14 @@ export default class AccountInfo extends React.Component {
 		super();
 		this.state = {
 			myOlds:26,
-			jobtimes:4
+			jobtimes:4,
+			name:'何陈娟',
+			job:'前端开发工程师',
+			sex:'女',
+			hf:'未婚',
+			location:'上海',
+			phone:'13564329531',
+			qq:'496182124@qq.com'
 		}
 	}
 
@@ -32,22 +39,22 @@ export default class AccountInfo extends React.Component {
 
 		return (
 			<div className="mb10 shadow-layout">
-				<h3 className="name">姓名：何陈娟</h3>
-				<h3 className="name">职位：前端开发工程师</h3>
+				<h3 className="name">姓名：{this.state.name}</h3>
+				<h3 className="name">职位：{this.state.job}</h3>
 				<div className="base-info-list">
-					<span className="inline-block mr20">性别：女</span>
+					<span className="inline-block mr20">性别：{this.state.sex}</span>
 					<span className="inline-block mr20">年龄：{this.state.myOlds}岁</span>
-					<span className="inline-block">未婚</span>
+					<span className="inline-block">{this.state.hf}</span>
 				</div>
 				<div className="base-info-list">
-					<span className="inline-block mr20"><i></i>现居上海</span>
+					<span className="inline-block mr20">现居：{this.state.location}</span>
 					<span className="inline-block">{this.state.jobtimes}年工作经验</span>
 				</div>
 				<div className="base-info-list">
-					<span className="inline-block"><i></i>13564329531</span>
+					<span className="inline-block">联系方式：{this.state.phone}</span>
 				</div>
 				<div className="base-info-list">
-					<span className="inline-block"><i></i>496182124@qq.com</span>
+					<span className="inline-block">社交账号：{this.state.qq}</span>
 				</div>
 				<div className="base-info-list">					
 					<a className="inline-block mr20" href="https://github.com/mxcz213" rel="noopener noreferrer">
