@@ -15,7 +15,7 @@ i{
 }
 a{
 	text-decoration: none;
-	color: rgb(4,177,204);
+	color: #EA4C1A;
 }
 ::-webkit-scrollbar {
     width: 5px;
@@ -57,5 +57,5 @@ a{
 	margin-bottom: 10px;
 }
 .main-color{
-	color: rgb(4,177,204);
+	color: #EA4C1A;
 }
