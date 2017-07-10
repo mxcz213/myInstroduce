@@ -123,7 +123,8 @@ html{
 }
 .span-dw{
   display: inline-block;
-  width: 50%;
+  /* width: 50%; */
+  margin-right:10%;
   font-size: 14px;
 }
 .mySkill-list p{
@@ -132,8 +133,78 @@ html{
   line-height: 30px;
 }
 
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/*media*/
+/* @media screen and (max-width: 300px) {
+    body {
+        background-color:lightblue;
+    }
+} */
+@media (-webkit-min-device-pixel-ratio:2), 
+(min-device-pixel-ratio:2),
+(-webkit-min-device-pixel-ratio:3),
+(min-device-pixel-ratio:3)
+{
+  .base-wrapper{
+    flex-direction:column;
+  }
+  .base-info{
+    order:-1;
+  }
+  .App-header .author{
+    font-size: 20px;
+  }
+  .App-header .title{
+    font-size: 18px;
+  }
+  .base-info .name,
+  .inline-block,
+  .mySkill-list p,
+  .span-dw,
+  .service-company .company{
+    font-size: 12px;
+  }
+  .mySkill-list p{
+    line-height: 26px;
+  }
+  .latest-job .title, .service-company .title, .mySkill .title{
+    font-size: 14px;
+  }
+  
+  .project-experience{
+    background: rgb(219, 217, 217);
+  }
+}
+@media screen and (min-width: 1000px){
+  .base-info .name,
+  .inline-block,
+  .mySkill-list p,
+  .span-dw,
+  .service-company .company{
+    font-size: 14px;
+  }
+  .latest-job .title, .service-company .title, .mySkill .title{
+    font-size: 16px;
+  }
+  .App-header .author{
+    font-size: 24px;
+  }
+  .App-header .title{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 850px){
+  .base-wrapper{
+    flex-direction:column;
+  }
+  .base-info{
+    order:-1;
+  }
+}
+
+
+
