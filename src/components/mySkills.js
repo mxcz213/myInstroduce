@@ -5,8 +5,8 @@ export default class MySkills extends React.Component {
 		super();
 		this.state = {
 			mySkill:[
-				'熟悉html,css,javascript,能够处理浏览器的兼容问题。',
-				'对前端mvc架构有一定的理解，目前使用的公司原生js封装的mvc库，可以自由扩展。',
+				'熟悉html,css,javascript,有处理IE，谷歌，火狐等浏览器兼容问题的经历。',
+				'对前端mvc架构有一定的理解，参与公司原生js封装的mvc库，可以自由扩展。',
 				'熟悉前端一些ui框架如bootstrap,antd，熟悉reactjs结合antdUI组件，使用es6语法，采用webpack打包的项目，具备调试js代码的能力。',
 				'近两年项目都是写原生js代码，进行原生js的封装和业务逻辑的处理。',
 				'熟悉html5的新规范和css3，用这些新特性做过移动端网页。',
